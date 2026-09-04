@@ -398,6 +398,7 @@
   }  .topbar{
     display:flex;
     align-items:center;
+    justify-content:space-between;
     padding:14px 24px;
     border-bottom:1px solid var(--line);
     position:sticky;
@@ -412,12 +413,26 @@
     text-decoration:none;
   }
   .topbar a.back:hover{ color:var(--ink); }
+  .whatsapp-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:#fff;
+    background:#25D366;
+    text-decoration:none;
+    padding:8px 16px;
+    border-radius:20px;
+    white-space:nowrap;
+  }
+  .whatsapp-btn:hover{
+    background:#1ebe5b;
+  }
 </style>
 </head>
 <body style="background-color:#EDEEE8; color:#1C2127;">
 
 <div class="topbar">
   <a class="back" href="index.html"><span class="lang-pt">&larr; voltar</span><span class="lang-en">&larr; back</span></a>
+  <a class="whatsapp-btn" href="https://wa.me/5551985333351?text=Oi%2C%20Ingrid%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA." target="_blank" rel="noopener"><span class="lang-pt">Falar no WhatsApp</span><span class="lang-en">Message on WhatsApp</span></a>
 </div>
 
 <div class="hero">
