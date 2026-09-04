@@ -1,0 +1,93 @@
+<!-- Seção "Sobre mim" — cole no index.html LOGO ANTES do <footer> (linha ~121),
+     dentro de <div class="card"> se quiser manter a largura do cartão, ou fora dele
+     para a seção ocupar a página inteira (recomendado: fora, depois de </div>).
+
+     No <head> do index.html, acrescente a fonte Montserrat:
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+     A seção usa as variáveis já existentes no seu :root (--paper) e a tinta --ink (#1C2127).
+     Copie também a pasta fotos/ para a raiz do repositório. -->
+
+<style>
+  #sobre-insta { transition: transform .18s ease, background .18s ease; }
+  #sobre-insta:hover { background: oklch(0.9 0.11 92); transform: rotate(-0.6deg); }
+</style>
+
+<section id="sobre" style="position:relative; overflow:hidden; background:var(--paper, #EDEEE8); font-family:'Montserrat',Helvetica,sans-serif;">
+
+  <div style="position:absolute; inset:0; display:flex; gap:12px; padding:0 12px; pointer-events:none;">
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-40px);">
+      <img src="fotos/IMG_3235.jpg" alt="" loading="lazy" style="width:100%; height:340px; object-fit:cover; object-position:42% 38%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2786.jpg" alt="" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:35% 55%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2493.jpg" alt="" loading="lazy" style="width:100%; height:380px; object-fit:cover; object-position:50% 68%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_3444.jpg" alt="" loading="lazy" style="width:100%; height:320px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2242.jpg" alt="" loading="lazy" style="width:100%; height:380px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-140px);">
+      <img src="fotos/IMG_2111.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:58% 66%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2979.jpg" alt="" loading="lazy" style="width:100%; height:400px; object-fit:cover; object-position:50% 55%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_1427.jpg" alt="" loading="lazy" style="width:100%; height:280px; object-fit:cover; object-position:50% 45%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2500.jpg" alt="" loading="lazy" style="width:100%; height:280px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_1201.jpg" alt="" loading="lazy" style="width:100%; height:360px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-20px);">
+      <img src="fotos/IMG_3562.jpg" alt="" loading="lazy" style="width:100%; height:360px; object-fit:cover; object-position:50% 26%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2533.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:50% 68%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2339.jpg" alt="" loading="lazy" style="width:100%; height:340px; object-fit:cover; object-position:50% 55%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_0354.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2786.jpg" alt="" loading="lazy" style="width:100%; height:400px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-180px);">
+      <img src="fotos/IMG_2106.jpg" alt="" loading="lazy" style="width:100%; height:280px; object-fit:cover; object-position:50% 52%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_3391.jpg" alt="" loading="lazy" style="width:100%; height:360px; object-fit:cover; object-position:62% 55%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_1428.jpg" alt="" loading="lazy" style="width:100%; height:320px; object-fit:cover; object-position:50% 34%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_0311.jpg" alt="" loading="lazy" style="width:100%; height:320px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_3562.jpg" alt="" loading="lazy" style="width:100%; height:380px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-70px);">
+      <img src="fotos/IMG_3085.jpg" alt="" loading="lazy" style="width:100%; height:400px; object-fit:cover; object-position:62% 38%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2991.jpg" alt="" loading="lazy" style="width:100%; height:260px; object-fit:cover; object-position:38% 52%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2484.jpg" alt="" loading="lazy" style="width:100%; height:340px; object-fit:cover; object-position:46% 52%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2106.jpg" alt="" loading="lazy" style="width:100%; height:280px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_1427.jpg" alt="" loading="lazy" style="width:100%; height:360px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+    <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:12px; transform:translateY(-150px);">
+      <img src="fotos/IMG_1187.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:58% 40%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/zelda.jpg" alt="" loading="lazy" style="width:100%; height:380px; object-fit:cover; object-position:50% 44%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_2329.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:50% 48%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_1201.jpg" alt="" loading="lazy" style="width:100%; height:300px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+      <img src="fotos/IMG_3085.jpg" alt="" loading="lazy" style="width:100%; height:400px; object-fit:cover; object-position:50% 50%; border-radius:10px; display:block; background:#e3e2dc;">
+    </div>
+
+  </div>
+
+  <div style="position:relative; display:flex; justify-content:center; padding:120px 24px;">
+    <div style="background:#FBFAF6; border-radius:20px; box-shadow:0 24px 60px rgba(28,33,39,0.18); padding:clamp(32px,4vw,64px); max-width:640px; width:100%;">
+
+      <div style="display:flex; align-items:center; gap:14px;">
+        <img src="fotos/IMG_2665.jpg" alt="Selfie da Ing" loading="lazy" style="width:62px; height:62px; border-radius:50%; object-fit:cover; object-position:34% 38%; display:block; background:#e3e2dc; box-shadow:0 0 0 3px #FBFAF6, 0 0 0 4px rgba(28,33,39,0.15);">
+        <span style="display:block; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:oklch(0.58 0.16 32);">Sobre mim</span>
+      </div>
+      <h2 style="margin:14px 0 22px; font-weight:600; font-size:clamp(32px,4.4vw,52px); line-height:1.06; letter-spacing:-0.02em;">Além do LinkedIn</h2>
+
+      <p style="margin:0 0 18px; font-size:clamp(18px,2vw,21px); line-height:1.5; font-weight:300;">Meu nome é Ingrid, mas pode me chamar de Ing! Moro de favor com o Pudim, meu vira-lata caramelo que já é famoso no centro de SP — ele tem o próprio insta e até a própria marca de pudim 🐶🍮</p>
+      <p style="margin:0 0 16px; font-size:16px; line-height:1.65; color:rgba(28,33,39,0.78);">Meu primeiro jogo foi Super Mario, no Super Nintendo, e desde lá nunca mais parei. Cheguei a ter um servidor próprio de jogo online, com os mapas desenhados por mim. 🎮</p>
+      <p style="margin:0 0 16px; font-size:16px; line-height:1.65; color:rgba(28,33,39,0.78);">Curto muito ouvir música: tenho uma coleção de CDs e já toquei contrabaixo. E leio bastante — tenho a pilha dos preferidos e também a pilha daqueles que comprei, não li, e comprei outros 3. 🎸📚</p>
+      <p style="margin:0 0 16px; font-size:16px; line-height:1.65; color:rgba(28,33,39,0.78);">Fora isso, amo caminhar pela cidade descobrindo coisas, comidas e experiências novas. Tento registrar tudo que vejo. 📸</p>
+      
+
+      <a id="sobre-insta" href="https://instagram.com/inghumia" target="_blank" rel="noopener" style="display:block; margin-top:28px; padding:22px 24px; background:oklch(0.93 0.075 95); border:2px dashed rgba(28,33,39,0.35); border-radius:18px; text-decoration:none; transition:transform .18s ease, background .18s ease;">
+        <span style="display:block; font-size:16px; line-height:1.6; color:rgba(28,33,39,0.8);">No LinkedIn, me chame para iniciativas profissionais. Aqui é para conversar sobre videogame, música, jogos de tabuleiro e tomarmos um cafezinho ☕</span>
+        <span style="display:block; margin-top:14px; font-size:22px; font-weight:600; color:#1C2127;">@inghumia 👋</span>
+      </a>
+
+    </div>
+  </div>
+
+</section>
